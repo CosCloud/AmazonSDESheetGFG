@@ -12,7 +12,7 @@ class Solution{
         //In ith iteration, bubble sort put the ith largest
         //element at its correct position
         for(int i=0; i<3; i++){
-            //run the loop for 3 iteration as we have to find third largest 
+            //run the loop for 3 iterations as we have to find the third largest 
             for(int j=0; j<n-1; j++){
                 if(a[j]>a[j+1])swap(a[j],a[j+1]);
             }
