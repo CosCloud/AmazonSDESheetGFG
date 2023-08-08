@@ -1,3 +1,5 @@
+//TC - O(n) and SC - O(n)
+
 //{ Driver Code Starts
 #include <bits/stdc++.h>
 using namespace std;
