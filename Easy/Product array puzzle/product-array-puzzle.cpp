@@ -10,7 +10,7 @@ using namespace std;
 class Solution{
   public:
     // nums: given vector
-    // return the Product vector P that hold product except self at each index
+    // return the Product vector P that holds product except self at each index
     vector<long long int> productExceptSelf(vector<long long int>& nums, int n) {
        
         vector<long long int> left(n,1);
