@@ -4,8 +4,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
-
 // } Driver Code Ends
 //User function template for C++
 
@@ -27,6 +25,8 @@ class Solution{
         }
         
         vector<long long int> ans;
+	//left[i] contains the product of all elements before ith element 
+	//right[i] contains the product of all elements after ith element
         for(int i=0;i<n;i++) {
             ans.push_back(left[i]*right[i]); 
         }
