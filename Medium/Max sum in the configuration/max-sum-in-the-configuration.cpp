@@ -54,7 +54,6 @@ int max_sum(int arr[],int N)
     currSum - (sum-arr[i-1]) means we are decrementing other values by 1 i.e., 
     2*(1-1)+3*(2-1)+4*(3-1) = 3 + 4*2 = 11 means subtracting each other digit
     one time from currSum
-    
     */
     int ans=0, sum=0, currSum=0;
     for(int i=0; i<N; i++){
